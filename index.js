@@ -35,10 +35,6 @@ exports.handler = (event, context, callback) => {
                     key: 'Content-Type',
                     value: 'text/html'
                 }],
-                'content-encoding': [{
-                    key: 'Content-Encoding',
-                    value: 'UTF-8'
-                }],
             },
             body: content,
         };
